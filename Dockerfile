@@ -1,7 +1,7 @@
 FROM af139784/verse:4.0.4
 
 RUN apt-get update \
-  && apt-get -y install tcl8.6-dev tk8.6-dev libsodium-dev
+  && apt-get -y install tcl8.6-dev tk8.6-dev libsodium-dev libpq-dev
 
 # Change Locale 
 ENV LANG ja_JP.UTF-8
