@@ -1,4 +1,4 @@
-FROM af139784/verse:4.0.5
+FROM af139784/verse:4.1.0
 
 RUN apt-get update \
   && apt-get -y install tcl8.6-dev tk8.6-dev libsodium-dev libharfbuzz-dev libfribidi-dev unixodbc-dev
